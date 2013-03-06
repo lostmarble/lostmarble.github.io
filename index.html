@@ -13,6 +13,21 @@
     <![endif]-->
   </head>
   <body>
+      <div>
+---
+layout: default
+title: my blog
+---
+<h2>{{ page.title }}</h2>
+<p> new article</p>
+<ul>
+    {% for post in site.posts %}
+    <li>{{ post.date | date_to_string }}
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+</div>
     <div class="wrapper">
       <header>
         <h1>消失的玻璃球</h1>
@@ -58,3 +73,4 @@ $ git checkout gh-pages
     
   </body>
 </html>
+
