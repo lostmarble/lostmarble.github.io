@@ -27,6 +27,7 @@ https://bitbucket.org/nginx-goodies/nginx-sticky-module-ng
 
 重新编译Nginx
 
+
 ```
     ./configure ... --add-module=/absolute/path/to/nginx-sticky-module-ng
      make
@@ -44,6 +45,7 @@ upstream {
 ```
 
 使用webpy写了一个基本的web服务,部署到127.0.0.1:2233
+
 
 ```
 import web
@@ -69,6 +71,7 @@ if __name__ == "__main__":
 
 ## 测试结果
 通过代理来访问该服务：
+
 ```
 curl -v 127.0.0.1:2233 -x 127.0.0.1:2200
 
