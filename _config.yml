@@ -4,7 +4,7 @@ email: lostmarble@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   消失的玻璃球
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://yansu.org # the base hostname & protocol for your site
+#url: http://yansu.org # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: lostmarble
 
@@ -14,15 +14,15 @@ filter: 'category'
 recent_num: 20
 
 # Social account
-twitter: masonsuyan
-weibo: suyan0830
-github: suyan
-instagram: suyan0830
-linkedin: suyan0830
+#twitter: masonsuyan
+weibo: lostmarble
+github: lostmarble
+#instagram: suyan0830
+#linkedin: suyan0830
 
 # avatar and Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
-favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+avatar: http://lostmarble.github.io/pics/photo.gif
+favicon: http://lostmarble.github.io/pics/photo.gif
 
 # disqus config
 disqus:
