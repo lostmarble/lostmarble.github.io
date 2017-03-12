@@ -40,7 +40,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     </dependency>
 ```
 
-参考
+## 参考
 http://stackoverflow.com/questions/7421612/slf4j-failed-to-load-class-org-slf4j-impl-staticloggerbinder
 
 

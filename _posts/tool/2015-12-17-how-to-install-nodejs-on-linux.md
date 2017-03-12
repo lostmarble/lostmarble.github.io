@@ -1,3 +1,10 @@
+---
+layout: post
+title: Linux 安装 nodejs
+category: 技术 
+keywords: Linux, nodejs
+---
+
 
 
 nodejs 有多个版本并行开发，最简单的方式是从官方网站下载已经编译好的安装包。网上有推荐安装nvm，然后使用nvm管理切换各个版本的nodejs，也是非常方便。

@@ -1,19 +1,21 @@
 ---
 layout: post
-title: 2015-MongoDB-In-Action
+title: 2015-09-22-nginx-squid-nginx
 category: 技术 
 tags: Essay
 keywords: MongoDB,总结,2015
 description: 
 ---
+
 工作中使用nginx进行负载均衡与代理服务功能，因为中间加了一个squid，
+
 整体的架构如下：
 
-Nginx1-->Squid-->Nginx2
-
+Nginx1-->Squid-->Nginx2 
 
 故需要配置一下：
 Nginx1.conf
+
 ```
 worker_processes  32;
 
